@@ -1,0 +1,173 @@
+/**
+  |============================
+  | Common styles
+  |============================
+*/
+:root {
+    --white-color: #ffffff;
+    --navy-blue-color: #2e2f42;
+    --slate-color: #434455;
+    --cloud-color: #F4F4FD;
+    --iris-color: #4D5AE5;
+    --ocean-color: #404BBF;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--slate-color);
+    background-color: var(--white-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/**
+  |============================
+  | Reset
+  |============================
+*/
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.btn {
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+/**
+  |============================
+  | Header
+  |============================
+*/
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris-color);
+}
+.page-nav .studio-word {
+    color: var(--navy-blue-color);
+}
+.nav-links .link {
+    font-weight: 500;
+    color: var(--navy-blue-color);
+} 
+.nav-links .link:hover,
+.nav-links .link:focus {
+    color: var(--ocean-color);
+} 
+.page-addr {
+    font-style: normal;
+}
+.page-addr .link {
+    color: var(--slate-color);
+}
+.page-addr .link:hover,
+.page-addr .link:focus {
+    color: var(--ocean-color);
+}
+/**
+  |============================
+  | Main Studio
+  |============================
+*/
+.hero-section {
+    background-color: var(--navy-blue-color);
+}
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+}
+.hero-btn {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+    background-color: var(--iris-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--ocean-color);
+}
+.features-list .title {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--navy-blue-color);
+}
+.section-title {
+    font-size: 36px;
+    letter-spacing: 0.02em;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--navy-blue-color);
+}
+.team-section {
+    background-color: var(--cloud-color);
+}
+.team-card {
+    background-color: var(--white-color);
+}
+.team-member {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: var(--navy-blue-color);
+}
+/**
+  |============================
+  | Main Portfolio
+  |============================
+*/
+.filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--iris-color);
+    background-color: var(--cloud-color);
+}
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--white-color);
+    background-color: var(--ocean-color);
+}
+.production-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue-color);
+}
+/**
+  |============================
+  | Footer
+  |============================
+*/
+.footer-section {
+    background-color: var(--navy-blue-color);
+}
+.logo-foot {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris-color);
+}
+.studio-word-foot {
+    color: var(--cloud-color);
+}
+.footer-text {
+    color: var(--cloud-color);
+}
