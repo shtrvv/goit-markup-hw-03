@@ -87,13 +87,15 @@ img {
     color: var(--iris-color);
     margin-right: 76px;
 }
+.page-nav {
+    margin-right: 332px;
+}
 .page-nav .studio-word {
     color: var(--navy-blue-color);
 }
 .nav-links {
     display: flex;
     gap: 40px;
-    margin-right: 332px;
 }
 .nav-item {
     padding: 24px 0;
@@ -285,11 +287,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue-color);
-    margin-left: 16px;
-    margin-bottom: 8px;
-}
-.description {
-    margin-left: 16px;
+    padding-bottom: 8px;
 }
 /**
   |============================
